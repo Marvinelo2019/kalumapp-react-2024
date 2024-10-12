@@ -1,8 +1,16 @@
+
+import { Typography } from "@mui/material"
+import { AppTheme, purpleTheme } from "./theme"
+
+
 export const Kalumapp = () => {
   return (
-    <div>
-      <h1>KalumApp</h1>
-    </div>
+   <AppTheme>
+        <Typography variant="h5" > 
+            Appkalum
+        </Typography>
+   </AppTheme>
+    
   )
 }
 
